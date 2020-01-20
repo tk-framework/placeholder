@@ -13,6 +13,8 @@ namespace TimonKreis\Framework\Placeholder\Text;
  */
 class LiEuropanLingues extends AbstractText
 {
+	use LanguageTrait;
+
 	/**
 	 * @var string[]
 	 */

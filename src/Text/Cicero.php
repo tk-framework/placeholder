@@ -13,6 +13,8 @@ namespace TimonKreis\Framework\Placeholder\Text;
  */
 class Cicero extends AbstractText
 {
+	use LanguageTrait;
+
 	/**
 	 * @var string[]
 	 */
