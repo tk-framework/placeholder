@@ -1,0 +1,42 @@
+{
+	"name": "tk-framework/placeholder",
+	"description": "Provides several placeholder helpers for text, images etc.",
+	"homepage": "https://www.timonkreis.de",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Timon Kreis",
+			"email": "mail@timonkreis.de",
+			"homepage": "https://www.timonkreis.de",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"placeholder",
+		"text",
+		"image"
+	],
+	"require": {
+		"php": "^7.2.0",
+		"ext-json": "*"
+	},
+	"require-dev": {
+		"tk-framework/test": "^1.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Placeholder\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Placeholder\\Tests\\": "tests/src"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.timonkreis.de"
+		}
+	]
+}
