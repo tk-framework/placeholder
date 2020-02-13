@@ -2,7 +2,7 @@
 	"name": "tk-framework/placeholder",
 	"description": "Provides several placeholder helpers for text, images etc.",
 	"homepage": "https://www.timonkreis.de",
-	"license": "proprietary",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Timon Kreis",
